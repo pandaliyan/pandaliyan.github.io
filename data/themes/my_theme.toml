@@ -1,0 +1,22 @@
+# Theme metadata
+name = "wli"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary =  "#FAD02C" #"#90ADC6" #"#6602b3" #"#1565c0"
+
+# Menu
+menu_primary = "#FAD02C" #"#fff"
+menu_text = "#34495e"
+menu_text_active = "#fff"
+menu_title = "#2b2b2b"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
+
+[dark]
+  link = "#bbdefb"
+  link_hover = "#bbdefb"

@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 15
 
 title: Experience
 subtitle:
@@ -22,28 +22,23 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+  - title: Senior Machine Learning Research Engineer (NLP)
+    company: Comcast Applied AI Research Lab
+    company_url: 'https://jobs.comcast.com/ml-ai-team-page'
+    company_logo: ''
+    location: Washington D.C.
+    date_start: '2019-01-01'
+    date_end: '2021-07-23'
     description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+        * Designed an unsupervised auto-annotation pipeline which used user behavioral modeling to automatically
+          identify errors in speech recognition and NLP systems and suggest corrections; summarized the work into a
+          conference paper as the first-author and filed a patent as main contributor
+        * Developed a context-based approach that discovered misclassified user queries in question answering systems by
+          performing semantic search with Sentence-BERT and clustering
+        * Leveraged subword-level query representation and adversarial training in customer care dialogue system for
+          misspelled user queries, which improved classification accuracy by 18% and increased user experience stability
+        * Implemented feedback mini-batch training to learn hard classification cases with reinforcement learning
+    
 
 design:
   columns: '2'

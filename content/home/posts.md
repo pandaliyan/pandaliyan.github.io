@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 80
 
 title: Recent Posts
 subtitle:
@@ -32,10 +32,11 @@ content:
   order: desc
 
 design:
+  view: 3
   # Choose a view for the listings:
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+
 ---

@@ -7,17 +7,17 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: Publications
+    url: '#featured'
     weight: 20
   - name: Projects
     url: '#projects'
     weight: 30
-  - name: Talks
-    url: '#talks'
+  - name: Posts
+    url: '#posts'
     weight: 40
-  - name: Publications
-    url: '#featured'
+  - name: CV
+    url: uploads/wenyanli_cv.pdf
     weight: 50
   - name: Contact
     url: '#contact'
