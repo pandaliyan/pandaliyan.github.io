@@ -32,7 +32,7 @@ authors:
 - admin
 
 tags:
-- paper
+- reading-notes
 
 categories:
 - reading
