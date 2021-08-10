@@ -7,7 +7,7 @@
 
 theme: minimal
 day_night: true
-font: 'minimal'
+font: ''
 font_size: m
 
 # SEO
@@ -41,19 +41,7 @@ contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    link: 'https://twitter.com/Lyan22314913'
 
 # Site header
 
@@ -68,8 +56,8 @@ main_menu:
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
+date_format: 'Aug 10, 2021'
+time_format: '11:01 AM'
 address_format: en-us
 
 # Site features
