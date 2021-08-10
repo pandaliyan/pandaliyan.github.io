@@ -1,13 +1,14 @@
 ---
-title: "An Attentive Recurrent Model for Incremental Prediction of Sentence-final Verbs"
+title: "Systems and Methods for Training Voice Query Models"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
-authors:
-- "*Wenyan Li*"
-- Alvin Grissom II
-- Jordan Boyd-Graber
+authors: 
+- Wenyan Li
+- Ferhan Ture
+- Jose Casillas
+- Tom Des Jardins
 
 
 # Author notes (optional)
@@ -15,11 +16,11 @@ author_notes:
 - ""
 - ""
 
-date: "2020-07-01T00:00:00Z"
-doi: "10.18653/v1/2020.findings-emnlp.12"
+date: "2020-06-23T00:00:00Z"
+#doi: "10.1145/3397271.3401241"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020"
+publishDate: "pending"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -28,41 +29,32 @@ publishDate: "2020"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Findings of the Association for Computational Linguistics: EMNLP 2020*"
-publication_short: "In *EMNLP findings 2020*"
+publication: "*U.S. Application Serial No.: 63/056,361. filed July 24, 2020. Patent Pending.*"
+publication_short: "*U.S. filed patent*"
 
-abstract: "Verb prediction is important for understanding human processing of verb-final languages, 
-with practical applications to real-time simultaneous interpretation from verb-final 
-to verb-medial languages. While previous approaches use classical statistical models, 
-we introduce an attention-based neural model to incrementally predict final verbs on 
-incomplete sentences in Japanese and German SOV sentences. 
-To offer flexibility to the model, we further incorporate synonym awareness. 
-Our approach both better predicts the final verbs in Japanese and German 
-and provides more interpretable explanations of why those verbs are selected."
+# abstract:""
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [papers]
+tags: [patent]
 
 # Display this page in the Featured widget?
 featured: true
-
-math: true
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: /publication/emnlp2020/2020.findings-emnlp.12.pdf
+#url_pdf: /publication/sigir2020/sigir2020_annotation.pdf
+#url_slides: 'https://drive.google.com/file/d/1A3UrASelpItdO8AbEYc0ShNJGpVm0R81/view?usp=sharing'
+#url_video: 'https://drive.google.com/file/d/1WX-pLczRgN5BDQgGGiChCU1xG2wiFj7b/view?usp=sharing'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
 # url_project: ''
-# url_slides: ''
 # url_source: ''
-# url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
