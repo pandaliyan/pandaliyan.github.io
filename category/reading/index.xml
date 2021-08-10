@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reading | Wenyan Li</title>
+    <link>https://wenyanli.org/category/reading/</link>
+      <atom:link href="https://wenyanli.org/category/reading/index.xml" rel="self" type="application/rss+xml" />
+    <description>reading</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>reading</title>
+      <link>https://wenyanli.org/category/reading/</link>
+    </image>
+    
+    <item>
+      <title>RNN review paper notes</title>
+      <link>https://wenyanli.org/post/getting-started/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/post/getting-started/</guid>
+      <description>&lt;h1 id=&#34;reading-notes-of-a-critical-review-of-recurrent-neural-networks-for-sequence-learninghttpsarxivorgpdf150600019pdf&#34;&gt;Reading notes of &lt;a href=&#34;https://arxiv.org/pdf/1506.00019.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Critical Review of Recurrent Neural Networks for Sequence Learning&lt;/a&gt;.&lt;/h1&gt;
+&lt;h2 id=&#34;main-idea&#34;&gt;Main Idea&lt;/h2&gt;
+&lt;p&gt;Answered the question of &lt;strong&gt;Why recurrent neural networks?&lt;/strong&gt; in aspects of Architectures, algorithms, results, comparison to alternative methodologies on sequence learning.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RNNs are able to manage text sequences of arbitrary lengths. While processing each token/element in the sequence one at a time, they pass information across time steps.
+&lt;ul&gt;
+&lt;li&gt;SVM, logistic regression and feedforward networks proved to be useful under independece assumption which precludes modeling long-range dependencies.&lt;/li&gt;
+&lt;li&gt;HMM has memeoryless property and has exponentially growing state space even when considering large context window which is computationally impractical for modelling long-range dependencies.&lt;/li&gt;
+&lt;li&gt;RNNs are differentiable end to end given fixed architectures and regularization techniques can be used for preventing overfitting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;neural-nets-and-rnns&#34;&gt;Neural Nets and RNNs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Neural nets: Neurons in the neural networks has values equal to the output of the activation function applied on the weighted sum of the input nodes&#39; values: $ v_{j} = l_{j}(\sum_{j&#39;}w_{jj&#39;}\cdot{v_{j&#39;}})$, which was then written as  $ v_{j} = \sigma(a_j)$
+where $a_j = \sum_{j&#39;}w_{jj&#39;}\cdot{v_{j&#39;}}$ and $\sigma$ for sigmoid. And activation functions are task-specific, for example, softmax are normally used in multiclass problems.&lt;/li&gt;
+&lt;li&gt;Feedforward and backprop
+&lt;ul&gt;
+&lt;li&gt;Goal of feedforward NNs: minimize loss function: $L(\hat{y}, y)$.&lt;/li&gt;
+&lt;li&gt;Backprop for training: calculate derivatives of the loss function $L$ wrt the parameters of the network. Parameters are then updated by stochastic gradient descent (SGD), i.e. take steps of modifications towards the expecting direction which decreases the loss $L$. Note, loss function may be non-convex, thus global optimal is not gauranteed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;RNNs: takes both current input $\mathbf{x}^{(t)}$ and hidden state from previous $\mathbf{h}^{(t-1)}$:
+&lt;ul&gt;
+&lt;li&gt;$h^{(t)} = \sigma(W^{hx}\mathbf{x}^{(t)}+W^{hh}\mathbf{h}^{(t-1)} + \mathbf{b}_h)$&lt;/li&gt;
+&lt;li&gt;$\hat{\mathbf{y}}^{t}= softmax(W^{yh}\mathbf{h}^{(t)} + \mathbf{b}_y)$
+With above forward network, backprop of RNN is called Backprop through time (BPTT).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Exploding/vanishing gradients: When learning long-distance dependencies, the gradients of weights may explode or vanish through the time steps. The following tutorial also gives a  detailed description. &lt;a href=&#34;https://arxiv.org/abs/1703.01619&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neural Machine Translation and Sequence-to-sequence Models: A Tutorial&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;lstms-grus-bidirectional&#34;&gt;LSTMs, GRUs, Bidirectional&lt;/h2&gt;
+&lt;p&gt;A memory cell and gates are introduced in LSTM, which has unit gradient when adding previous memory $\mathbf{c}_{t-1}$ to the current $\mathbf{c}_t$.
+Bidirectional structure has one more layer of hidden nodes which takes inputs from the end, which allows context information before and after the current step.&lt;/p&gt;
+&lt;p&gt;Gated recurrent units (GRUs) appear as a simpler and computationally easier alternative of LSTM, which was not introducted in this paper but has on par performance as LSTM.&lt;/p&gt;
+&lt;h2 id=&#34;neural-turing-machines&#34;&gt;Neural Turing Machines&lt;/h2&gt;
+&lt;p&gt;Incorporate external memory buffer compared to RNNs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Memory matrix +  controller(may be a rnn)&lt;/li&gt;
+&lt;li&gt;differentiable end-to-end&lt;/li&gt;
+&lt;li&gt;can backprop via SGD&lt;/li&gt;
+&lt;li&gt;outperforms LSTM (without external memory) when generalizing on longer inputs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;representing natural language inputs and outputs
+&lt;ul&gt;
+&lt;li&gt;character-level, word level, one-hot, word embeddings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BLEU score for translation evaluation
+&lt;ul&gt;
+&lt;li&gt;vrevity penalty, ngram precisions&lt;/li&gt;
+&lt;li&gt;METEOR as an alternative which is based on word to word matches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;translation as a SEQ2SEQ problem&lt;/li&gt;
+&lt;li&gt;image captioning:  input images and target captions as inputs. Encoding can be dong using CNN for images. Attention mechanism can be used in decoding.&lt;/li&gt;
+&lt;li&gt;More: handwriting recognition, unsupervised video encoding, video captioning, computer programs reading.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;discussion&#34;&gt;discussion&lt;/h3&gt;
+&lt;p&gt;I don&amp;rsquo;t include most of the equations in the notes. The paper is clear in why and how RNN makes a difference in learning long-dependencies, which serves pretty well as a review/tutorial from a higher level with math well explained.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

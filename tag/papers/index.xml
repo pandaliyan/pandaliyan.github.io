@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>papers | Wenyan Li</title>
+    <link>https://wenyanli.org/tag/papers/</link>
+      <atom:link href="https://wenyanli.org/tag/papers/index.xml" rel="self" type="application/rss+xml" />
+    <description>papers</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>papers</title>
+      <link>https://wenyanli.org/tag/papers/</link>
+    </image>
+    
+    <item>
+      <title>An Attentive Recurrent Model for Incremental Prediction of Sentence-final Verbs</title>
+      <link>https://wenyanli.org/publication/emnlp2020/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/emnlp2020/</guid>
+      <description>&lt;h2 id=&#34;main-idea&#34;&gt;Main idea&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;Yu M. et al. (2016), phenotype is translated from genotype based on gene ontology, and predicted interaction
+scores may be influenced by errors in gene annotations or relationship between terms.
+As deep learning being effective in identifying complex patterns from feature-rich datasets,
+especially as recurrent neural networks(RNNs) such as long short term memory(LSTM) and gated recurrent unit(GRU)
+are capable of dealing with long-distance sequential data, predicting genetic interactions directly from DNA or
+amino-acid sequences using deep learning techniques would help us gain insights into underlying complex phenotypes.&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;div-classalert-alert-note&#34;&gt;&lt;div class=&#34;alert alert-note&#34;&gt;&lt;/h1&gt;
+  &lt;div&gt;
+    &lt;h1 id=&#34;click-the-cite-button-above-to-demo-the-feature-to-enable-visitors-to-import-publication-metadata-into-their-reference-management-software&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/h1&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;div-classalert-alert-note-1&#34;&gt;&lt;div class=&#34;alert alert-note&#34;&gt;&lt;/h1&gt;
+  &lt;div&gt;
+    &lt;h1 id=&#34;create-your-slides-in-markdown---click-the-slides-button-to-check-out-the-example&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/h1&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;supplementary-notes-can-be-added-here-including-code-math-and-imageshttpswowchemycomdocswriting-markdown-latex&#34;&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Auto-annotation for Voice-enabled Entertainment Systems</title>
+      <link>https://wenyanli.org/publication/sigir2020/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/sigir2020/</guid>
+      <description>&lt;h1 id=&#34;div-classalert-alert-note&#34;&gt;&lt;div class=&#34;alert alert-note&#34;&gt;&lt;/h1&gt;
+  &lt;div&gt;
+    &lt;h1 id=&#34;click-the-cite-button-above-to-demo-the-feature-to-enable-visitors-to-import-publication-metadata-into-their-reference-management-software&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/h1&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;div-classalert-alert-note-1&#34;&gt;&lt;div class=&#34;alert alert-note&#34;&gt;&lt;/h1&gt;
+  &lt;div&gt;
+    &lt;h1 id=&#34;create-your-slides-in-markdown---click-the-slides-button-to-check-out-the-example&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/h1&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;supplementary-notes-can-be-added-here-including-code-math-and-imageshttpswowchemycomdocswriting-markdown-latex&#34;&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
