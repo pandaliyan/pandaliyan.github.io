@@ -41,7 +41,7 @@ item:
   url: ""
 - certificate_url: https://www.coursera.org/account/accomplishments/verify/Z5BA4UCGGVTM
   date_end: ""
-  date_start: "2020-07-01"
+  date_start: "2016-07-01"
   description: ""
   organization: Coursera
   organization_url: https://www.coursera.org
