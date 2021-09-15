@@ -43,7 +43,7 @@ and provides more interpretable explanations of why those verbs are selected."
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [papers]
+tags: [NLP]
 
 # Display this page in the Featured widget?
 featured: true
