@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>papers | Wenyan Li</title>
-    <link>https://wenyanli.org/tag/papers/</link>
-      <atom:link href="https://wenyanli.org/tag/papers/index.xml" rel="self" type="application/rss+xml" />
-    <description>papers</description>
+    <title>IR | Wenyan Li</title>
+    <link>https://wenyanli.org/tag/ir/</link>
+      <atom:link href="https://wenyanli.org/tag/ir/index.xml" rel="self" type="application/rss+xml" />
+    <description>IR</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>papers</title>
-      <link>https://wenyanli.org/tag/papers/</link>
+      <title>IR</title>
+      <link>https://wenyanli.org/tag/ir/</link>
     </image>
     
     <item>

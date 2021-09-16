@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://wenyanli.org/publication-type/1/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wenyanli.org/publication_types/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wenyanli.org/publication/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wenyanli.org/tag/sr/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wenyanli.org/tags/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wenyanli.org/publication/emnlp2021/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wenyanli.org/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wenyanli.org/publication/emnlp2020/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
@@ -11,22 +29,13 @@
     <loc>https://wenyanli.org/publication/sigir2020/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://wenyanli.org/tag/papers/</loc>
+    <loc>https://wenyanli.org/tag/ir/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://wenyanli.org/publication_types/</loc>
+    <loc>https://wenyanli.org/tag/nlp/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://wenyanli.org/publication/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://wenyanli.org/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://wenyanli.org/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://wenyanli.org/tag/patent/</loc>
+    <loc>https://wenyanli.org/publication-type/8/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wenyanli.org/publication/patent_wli_2021/</loc>
