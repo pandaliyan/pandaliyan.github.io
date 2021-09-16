@@ -5,7 +5,7 @@ title: "Auto-annotation for Voice-enabled Entertainment Systems"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors: 
-- Wenyan Li
+- admin
 - Ferhan Ture
 
 # Author notes (optional)
@@ -43,7 +43,7 @@ reduction of 0.907 in WER after applying the auto-suggested fixes."
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [papers]
+tags: [NLP, SR, IR]
 
 # Display this page in the Featured widget?
 featured: true

@@ -32,7 +32,7 @@ content:
   order: desc
 
 design:
-  view: 3
+  view: 1
   # Choose a view for the listings:
   #   1 = List
   #   2 = Compact

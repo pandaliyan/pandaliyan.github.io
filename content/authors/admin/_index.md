@@ -65,7 +65,7 @@ social:
 email: "wenyan.li@hotmail.com"
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
 Hi! I am Wenyan, a Senior Machine Learning Research Engineer at Comcast AI Research Lab.

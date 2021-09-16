@@ -1,0 +1,12 @@
+name = "wli"
+
+google_fonts = "Poppins&family=Roboto:wght@100&display=swap"
+
+heading_font = "Montserrat"
+body_font = "Lato"
+nav_font = "Lato"
+mono_font = "Lato"
+
+font_size = "20"
+font_size_small = "18"
+

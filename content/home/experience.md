@@ -1,6 +1,4 @@
 ---
-# An instance of the Experience widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
 
 # This file represents a page section.
@@ -29,16 +27,18 @@ experience:
     location: Washington D.C.
     date_start: '2019-01-01'
     date_end: '2021-07-23'
-    description: |2-
-        * Designed an unsupervised auto-annotation and active learning pipeline which used user behavioral modeling to automatically
-          identify errors in speech recognition and NLP systems and suggest corrections; summarized the work into a
-          conference paper as the first-author and filed a patent as main contributor
-        * Developed a context-based approach that discovered misclassified user queries in question answering systems by
-          performing semantic search with Sentence-BERT and clustering
-        * Leveraged subword-level query representation and adversarial training in customer care dialogue system for
-          misspelled user queries, which improved classification accuracy by 18% and increased user experience stability
+    description: >-
+      * Designed an **unsupervised auto-annotation system** for voice queries with user behavioral modeling to automatically
+        identify errors in speech recognition and NLP systems and suggest corrections  
+      * Built an active learning pipeline with auto-labeled user transcriptions to improve ASR system for comcast X1,
+        increasing system recognition accuracy by 9%
+        (summarized the work into a conference paper as the first-author and filed a patent as the main inventor)
+      * Developed a context-based approach that discovered misclassified user queries in question answering systems by
+        performing **semantic search with Sentence-BERT**
+      * Leveraged subword-level query representation and adversarial training in customer care dialogue system for
+        misspelled user queries, which improved classification accuracy by 18% and increased user experience stability
     
 
 design:
-  columns: '2'
+  columns: '1'
 ---

@@ -10,8 +10,8 @@ authors:
 - Kendra Chalkley 
 - Ji Xin
 - Liming Zhang
-- "*Wenyan Li*, ..."
-- G. Craig Murray
+- admin
+- "..., G. Craig Murray"
 - Jimmy Lin
 
 # Publication type.
@@ -24,11 +24,16 @@ publication_types: ["1"]
 publication: "In *EMNLP 2021*"
 publication_short: "In *EMNLP 2021*"
 
+date: "2021-07-01T00:00:00Z"
+# doi: "10.18653/v1/2020.findings-emnlp.12"
+
+# Schedule page publish date (NOT publication's date).
 publishDate: "2021"
-date: "2021-11-08T00:00:00Z"
 
 # Display this page in the Featured widget?
 featured: true
+
+tags: [SR]
 
 ---
 
