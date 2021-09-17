@@ -68,7 +68,7 @@ email: "wenyan.li@hotmail.com"
 highlight_name: true
 ---
 
-Hi! I am Wenyan, a Senior NLP Researcher at [Sensetime](https://sensetime.com). 
+Hi! I am Wenyan, a Senior NLP Researcher at [Sensetime](https://sensetime.com/en). 
 
 Before this, I worked as a senior Machine Learning Research Engineer at Comcast AI Research Lab.
 I completed my MS at [University of Maryland, College Park](https://www.umd.edu/), 
