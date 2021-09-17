@@ -6,11 +6,11 @@ title: Wenyan Li
 superuser: true
 
 # Role/position/tagline
-role: Senior Research Engineer
+# role: senior NLP Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Comcast Applied AI
+# - name: Comcast Applied AI
   #url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
