@@ -19,7 +19,18 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  
 experience:
+  - title: Senior NLP Researcher (Artificial General Intelligence team)
+    company: Sensetime
+    company_url: 'https://sensetime.com'
+    company_logo: ''
+    location: Shanghai, China
+    date_start: '2021-09-16'
+    date_end: ''
+    description: >-
+      * DNN with multimodal training
+    
   - title: Senior Machine Learning Research Engineer (NLP)
     company: Comcast Applied AI Research Lab
     company_url: 'https://jobs.comcast.com/ml-ai-team-page'
@@ -37,6 +48,7 @@ experience:
         performing **semantic search with Sentence-BERT**
       * Leveraged subword-level query representation and adversarial training in customer care dialogue system for
         misspelled user queries, which improved classification accuracy by 18% and increased user experience stability
+      * Mentored interns and new-hires on projects relevant to multi-task learning and query representation
     
 
 design:

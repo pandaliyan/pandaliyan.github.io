@@ -20,7 +20,7 @@ bio: My research interests include NLP, machine learning and speech recognition.
 interests:
 - Natural Language Processing
 - Information Retrieval
-- Speech Recognition
+- Speech Technology
 
 
 # Education to show in About widget
@@ -68,8 +68,9 @@ email: "wenyan.li@hotmail.com"
 highlight_name: true
 ---
 
-Hi! I am Wenyan, a Senior Machine Learning Research Engineer at Comcast AI Research Lab.
+Hi! I am Wenyan, a Senior NLP Researcher at [Sensetime](https://sensetime.com). 
 
-Before this, I completed my MS at [University of Maryland, College Park](https://www.umd.edu/), 
+Before this, I worked as a senior Machine Learning Research Engineer at Comcast AI Research Lab.
+I completed my MS at [University of Maryland, College Park](https://www.umd.edu/), 
 where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg/) on Natural Language Processing. 
 Download my {{< staticref "uploads/wenyanli_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
