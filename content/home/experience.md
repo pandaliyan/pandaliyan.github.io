@@ -29,7 +29,7 @@ experience:
     date_start: '2021-09-16'
     date_end: ''
     description: >-
-      * knowledge-enhanced QA
+      * knowledge-enhanced QA and dialogue system
     
   - title: Senior Machine Learning Research Engineer (NLP)
     company: Comcast Applied AI Research Lab
