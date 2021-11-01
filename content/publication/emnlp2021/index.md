@@ -26,6 +26,7 @@ publication_short: "In *EMNLP 2021*"
 
 date: "2021-07-01T00:00:00Z"
 # doi: "10.18653/v1/2020.findings-emnlp.12"
+url_pdf: /publication/emnlp2021/Tang_etal_EMNLP2021.pdf
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021"
