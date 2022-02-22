@@ -16,11 +16,11 @@ author_notes:
 - ""
 - ""
 
-date: "2020-06-23T00:00:00Z"
+date: "2022-01-27T00:00:00Z"
 #doi: "10.1145/3397271.3401241"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "pending"
+publishDate: "2022-01-27"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -29,7 +29,7 @@ publishDate: "pending"
 publication_types: ["8"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*U.S. Application Serial No.: 63/056,361. filed July 24, 2020. Patent Pending.*"
+publication: "*US Patent App. 17/383,236*"
 publication_short: "*U.S. filed patent*"
 
 # abstract:""
