@@ -27,9 +27,9 @@ experience:
     company_logo: ''
     location: Shanghai, China
     date_start: '2021-09-16'
-    date_end: ''
+    date_end: '2022-06-24'
     description: >-
-      * knowledge-enhanced QA and dialogue system  
+      * Knowledge-enhanced QA and dialogue system
       * Multimodal and prompt learning
   
     

@@ -68,10 +68,11 @@ email: "wenyan.li@hotmail.com"
 highlight_name: true
 ---
 
-Hi! I am Wenyan, a Senior NLP Researcher at [Sensetime](https://sensetime.com/en). 
+Hi! I am Wenyan, a first-year PhD student at the [CoAStaL NLP Group](https://coastalcph.github.io/), University of Copenhagen. 
+I'm supervised by [Anders Søgaard](http://anderssoegaard.github.io/) and [Desmond Elliott](https://elliottd.github.io/).
 
-Before this, I worked as a senior Machine Learning Research Engineer at Comcast AI Research Lab, mentored by [Ferhan Ture](http://ferhanture.com/index.htm).
+
+Before this, I worked as a Senior NLP Researcher at [Sensetime](https://sensetime.com/en) and [Comcast AI Research Lab](https://jobs.comcast.com/ml-ai-team-page) (mentored by [Ferhan Ture](http://ferhanture.com/index.htm)).
 
 I completed my MS at [University of Maryland, College Park](https://www.umd.edu/), 
-where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg/) on Natural Language Processing. 
-Download my {{< staticref "uploads/wenyanli_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
+where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg/) on Natural Language Processing.
