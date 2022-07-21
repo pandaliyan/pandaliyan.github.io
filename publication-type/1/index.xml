@@ -5,12 +5,20 @@
     <link>https://wenyanli.org/publication-type/1/</link>
       <atom:link href="https://wenyanli.org/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://wenyanli.org/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Temporal Early Exiting for Streaming Speech Commands Recognition</title>
+      <link>https://wenyanli.org/publication/icassp2022/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/icassp2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Voice Query Auto Completion</title>

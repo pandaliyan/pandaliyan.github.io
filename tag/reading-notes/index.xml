@@ -31,8 +31,8 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;neural-nets-and-rnns&#34;&gt;Neural Nets and RNNs&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Neural nets: Neurons in the neural networks has values equal to the output of the activation function applied on the weighted sum of the input nodes&#39; values: $ v_{j} = l_{j}(\sum_{j&#39;}w_{jj&#39;}\cdot{v_{j&#39;}})$, which was then written as  $ v_{j} = \sigma(a_j)$
-where $a_j = \sum_{j&#39;}w_{jj&#39;}\cdot{v_{j&#39;}}$ and $\sigma$ for sigmoid. And activation functions are task-specific, for example, softmax are normally used in multiclass problems.&lt;/li&gt;
+&lt;li&gt;Neural nets: Neurons in the neural networks has values equal to the output of the activation function applied on the weighted sum of the input nodes&amp;rsquo; values: $ v_{j} = l_{j}(\sum_{j&amp;rsquo;}w_{jj&amp;rsquo;}\cdot{v_{j&amp;rsquo;}})$, which was then written as  $ v_{j} = \sigma(a_j)$
+where $a_j = \sum_{j&amp;rsquo;}w_{jj&amp;rsquo;}\cdot{v_{j&amp;rsquo;}}$ and $\sigma$ for sigmoid. And activation functions are task-specific, for example, softmax are normally used in multiclass problems.&lt;/li&gt;
 &lt;li&gt;Feedforward and backprop
 &lt;ul&gt;
 &lt;li&gt;Goal of feedforward NNs: minimize loss function: $L(\hat{y}, y)$.&lt;/li&gt;
