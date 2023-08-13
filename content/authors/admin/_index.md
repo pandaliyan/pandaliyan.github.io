@@ -69,7 +69,7 @@ email: "wenyan.li@hotmail.com"
 highlight_name: true
 ---
 
-Hi! I am Wenyan, a first-year PhD student at the [CoAStaL NLP Group](https://coastalcph.github.io/), University of Copenhagen. 
+Hi! I am Wenyan, a second-year PhD student at the [CoAStaL NLP Group](https://coastalcph.github.io/), University of Copenhagen. 
 I'm supervised by [Anders Søgaard](http://anderssoegaard.github.io/) and [Desmond Elliott](https://elliottd.github.io/).
 
 
