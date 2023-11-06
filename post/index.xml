@@ -5,12 +5,427 @@
     <link>https://wenyanli.org/post/</link>
       <atom:link href="https://wenyanli.org/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://wenyanli.org/post/</link>
     </image>
+    
+    <item>
+      <title>BLIP models</title>
+      <link>https://wenyanli.org/post/blip-notes/</link>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/post/blip-notes/</guid>
+      <description>&lt;h1 id=&#34;blips&#34;&gt;BLIPs&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;BLIP&lt;/th&gt;
+&lt;th&gt;BLIP2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Image Encoder&lt;/td&gt;
+&lt;td&gt;updated&lt;/td&gt;
+&lt;td&gt;frozen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Text encoder/decoder&lt;/td&gt;
+&lt;td&gt;updated&lt;/td&gt;
+&lt;td&gt;frozen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Transformer&lt;/td&gt;
+&lt;td&gt;updated （BERT）&lt;/td&gt;
+&lt;td&gt;query transformer (Q-Former)， including query embeddings （additional）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pre-training&lt;/td&gt;
+&lt;td&gt;pretraining with CapFilt&lt;/td&gt;
+&lt;td&gt;2 stage pretraining with CapFilt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;blip&#34;&gt;BLIP&lt;/h2&gt;
+&lt;h3 id=&#34;main-method&#34;&gt;Main method:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;CapFilt&lt;/code&gt;: generate synthetic captions and filter to get &lt;code&gt;(img,txt)&lt;/code&gt; pairs&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Multimodal mixture of Encoder-Decoder (MED)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;med&#34;&gt;MED&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Model structure:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Image encoder&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Text encoder — BERT(Bi SelfAttn, FF)&lt;/p&gt;
+&lt;p&gt;这一大块的模型变种共享除了self attention以外的参数&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;additional cross attention ⇒ Image-grounded Text Encoder
+&lt;ul&gt;
+&lt;li&gt;injects visual information with &lt;code&gt;[Encode]&lt;/code&gt; token&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;selfAttn + Casual SelfAttn⇒ Image-grounded Text Decoder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Three vision-language objectives&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;分别与上面text相关模块变种负责的功能对应&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;image text contrastive learning (ITC)&lt;/li&gt;
+&lt;li&gt;image-text matching (ITM)&lt;/li&gt;
+&lt;li&gt;image conditioned language modeling (ITG/LM)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_17.59.49.png&#34; alt=&#34;Screenshot 2023-02-08 at 17.59.49.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;capfilt&#34;&gt;CapFilt&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_18.10.25.png&#34; alt=&#34;Screenshot 2023-02-08 at 18.10.25.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;用COCO训练了一个captioning模型用来生成synthetic captions. Image-grounded text encoder用来过滤所生成的captions。&lt;/p&gt;
+&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_18.21.41.png&#34; alt=&#34;Screenshot 2023-02-08 at 18.21.41.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CapFilt 机制能够比较好地改善模型效果，对比网络抓取的caption，生成的caption效果更好。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_18.15.36.png&#34; alt=&#34;Screenshot 2023-02-08 at 18.15.36.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;下游任务在VQA, retrieval, NLVR2, visual dialog以及captioning都做了evaluation。效果均超过baseline， 使用CAPFILT后效果在BLIP base上进一步提升。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;blip2&#34;&gt;BLIP2&lt;/h1&gt;
+&lt;h3 id=&#34;main-method-1&#34;&gt;Main method:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Image encoder 和 LLM 都是frozen的，只有&lt;code&gt;querying  transformer&lt;/code&gt; 参数更新。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Q-former&lt;/code&gt;通过两个阶段的预训练起到一个两个模态间的桥梁作用，且轻量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Q-former&lt;/code&gt; Training involves two stages:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;bootstrapping image encoder&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;bootstrapping LLM&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data: 129M images (COCO, VG, CC12M, SBU, LAION400M) + BLIP caption + CapFilt&lt;/li&gt;
+&lt;li&gt;Submodules:
+&lt;ul&gt;
+&lt;li&gt;Image encoder:&lt;/li&gt;
+&lt;li&gt;LLM: decoder-only OPT; encoder-decoder instruction-trained FlanT5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;main-contribution&#34;&gt;Main contribution:&lt;/h3&gt;
+&lt;p&gt;提出更轻量的VL模型，outperform Flamingo but 54x lighter.&lt;/p&gt;
+&lt;h3 id=&#34;problemschallenges-in-previous-models&#34;&gt;Problems/challenges in previous models:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;image-to-text generation loss&lt;/code&gt; are &lt;strong&gt;not sufficient&lt;/strong&gt; to bridge modality gap from pretrained frozen models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;how to do better vision-language alignment? 如何实现多模态预训练模型之间的alignment？&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_14.26.58.png&#34; alt=&#34;Screenshot 2023-02-08 at 14.26.58.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;q-former&#34;&gt;&lt;strong&gt;Q-Former&lt;/strong&gt;:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_14.53.33.png&#34; alt=&#34;Screenshot 2023-02-08 at 14.53.33.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Model structure&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;two transformers:  这两个transformer同时也对应两个阶段的预训练&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;image transformer: 从image encoder提取visual feature
+&lt;ul&gt;
+&lt;li&gt;bottle neck for feature extraction (比直接使用frozen image encoder更轻量）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;text transformer：function as both a text encoder and a text decoder (既可以当encoder用也可以当decoder用）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;inputs: (image, text)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;loss:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;image-text matching  （ITM）— bidirectional&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;image-text contrastive learning （ITC）— unimodal masking&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;image-grounded text generation （ITG）— causal self-attention masking&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_15.06.51.png&#34; alt=&#34;Screenshot 2023-02-08 at 15.06.51.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;实现细节&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自注意力层共享参数;&lt;/li&gt;
+&lt;li&gt;通过query embeddings和共享的自注意力层实现针对不同人物不同方式的图文交互
+&lt;ul&gt;
+&lt;li&gt;query embedding (32x768)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;weights initialised from $BERT_{base}$ （188M #parameters）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Learning stages&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;representation learning： 学习图像文本的相关性 alignment  (frozen image encoder)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;we perform vision-language representation learning which enforces the Q-Former to learn visual representation most relevant to the text.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;generative learning： 有点像prompt- tuning，让学习到的图像feature适配LLM (frozen LLM)&lt;/p&gt;
+&lt;p&gt;这个适配直接通过FC层完成。LLM 的输入= &lt;code&gt;concat (FC(visual feature);text_embed)&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;we perform vision-to-language generative learning by connecting the output of the Q-Former to a frozen LLM, and trains the Q-Former such that its output visual representation can be interpreted by the LLM.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_15.12.25.png&#34; alt=&#34;Screenshot 2023-02-08 at 15.12.25.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Experiments&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;zero-shot VQA实验效果相当惊艳，秒杀一系列超大模型。Text-encoder部分使用FlanT5效果显著。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_16.17.30.png&#34; alt=&#34;Screenshot 2023-02-08 at 16.17.30.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I&lt;strong&gt;mage captioning&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NoCaps zeroshot performance显著超越baseline，但是在COCO上finetune后的结果并没有提高。这里我认为是因为Image encoder和LLM都是超大模型，如果finetune image encoder反而会减弱它的能力（与之前的Frozen道理相同）。但是不太理解为什么这里作者要去对image encoder进行finetune，也没有给出只finetune Q-Former的对比实验。按道理来说还是一样去finetune Q-Former应该就能得到比较好的效果了。或者直接给出zero-shot结果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Image-text retrieval&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;retrieval 的实验在BLIP的效果就已经比较饱和了。这里BLIP2在Flickr30k和COCO上都有进一步提升。同样这里BLIP2也是finetune Q-Former 和 image encoder。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ablation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;BLIPs%20a55ad040f589466db86136a738c9cfa2/Screenshot_2023-02-08_at_16.25.15.png&#34; alt=&#34;两阶段预训练效果显著，如果去掉第一部分的预训练，下游任务效果会显著下降。&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;两阶段预训练效果显著，如果去掉第一部分的预训练，下游任务效果会显著下降。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;Limitation&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“lack of in-context learning”&lt;/li&gt;
+&lt;li&gt;“unsatisfactory results due to various reasons including inaccurate knowledge from the LLM, activating the incorrect reasoning path, or not having up-to-date information about new image content”&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>RNN review paper notes</title>
