@@ -77,3 +77,5 @@ Before this, I worked as a Senior NLP Researcher at [Sensetime](https://sensetim
 
 I completed my MS at [University of Maryland, College Park](https://www.umd.edu/), 
 where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg/) on Natural Language Processing.
+
+In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cooking, yoga, and table tennis :)
