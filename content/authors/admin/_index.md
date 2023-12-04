@@ -18,7 +18,7 @@ bio: My research interests include NLP, machine learning and speech recognition.
 
 # Interests to show in About widget
 interests:
-- Natural Language Processin
+- Natural Language Processing
 - Multimodal Learning
 - Information Retrieval
 - Speech Technology
