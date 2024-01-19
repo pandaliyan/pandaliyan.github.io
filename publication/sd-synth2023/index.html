@@ -64,7 +64,7 @@
   
     
   
-  <meta name="description" content="Recent advances in image captioning are mainly driven by large-scale vision-language pretraining, relying heavily on computational resources and increasingly large multimodal datasets. Instead of scaling up pretraining data, we ask whether it is possible to improve performance by improving the quality of the samples in existing datasets. We pursue this question through two approaches to data curation: one that assumes that some examples should be avoided due to mismatches between the image and caption, and one that assumes that the mismatch can be addressed by replacing the image, for which we use the state-of-the-art Stable Diffusion model. These approaches are evaluated using the BLIP model on MS COCO and Flickr30K in both finetuning and few-shot learning settings. Our simple yet effective approaches consistently outperform baselines, indicating that better image captioning models can be trained by curating existing resources. Finally, we conduct a human study to understand the errors made by the Stable Diffusion model and highlight directions for future work in text-to-image generation." />
+  <meta name="description" content="Image captioning models are typically trained by treating all samples equally, neglecting to account for mismatched or otherwise difficult data points. In contrast, recent work has shown the effectiveness of training models by scheduling the data using curriculum learning strategies. This paper contributes to this direction by actively curating difficult samples in datasets *without* increasing the total number of samples. We explore the effect of using three data curation methods within the training process: complete removal of an sample, caption replacement, or image replacement via a text-to-image generation model. Experiments on the Flickr30K and COCO datasets with the BLIP and BEiT-3 models demonstrate that these curation methods do indeed yield improved image captioning models, underscoring their efficacy." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://wenyanli.org/publication/sd-synth2023/" />
@@ -297,17 +297,17 @@
   
   <meta property="og:site_name" content="Wenyan Li" />
   <meta property="og:url" content="https://wenyanli.org/publication/sd-synth2023/" />
-  <meta property="og:title" content="Data Curation for Image Captioning with Text-to-Image Generative Models | Wenyan Li" />
-  <meta property="og:description" content="Recent advances in image captioning are mainly driven by large-scale vision-language pretraining, relying heavily on computational resources and increasingly large multimodal datasets. Instead of scaling up pretraining data, we ask whether it is possible to improve performance by improving the quality of the samples in existing datasets. We pursue this question through two approaches to data curation: one that assumes that some examples should be avoided due to mismatches between the image and caption, and one that assumes that the mismatch can be addressed by replacing the image, for which we use the state-of-the-art Stable Diffusion model. These approaches are evaluated using the BLIP model on MS COCO and Flickr30K in both finetuning and few-shot learning settings. Our simple yet effective approaches consistently outperform baselines, indicating that better image captioning models can be trained by curating existing resources. Finally, we conduct a human study to understand the errors made by the Stable Diffusion model and highlight directions for future work in text-to-image generation." /><meta property="og:image" content="https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:title" content="The Role of Data Curation in Image Captioning | Wenyan Li" />
+  <meta property="og:description" content="Image captioning models are typically trained by treating all samples equally, neglecting to account for mismatched or otherwise difficult data points. In contrast, recent work has shown the effectiveness of training models by scheduling the data using curriculum learning strategies. This paper contributes to this direction by actively curating difficult samples in datasets *without* increasing the total number of samples. We explore the effect of using three data curation methods within the training process: complete removal of an sample, caption replacement, or image replacement via a text-to-image generation model. Experiments on the Flickr30K and COCO datasets with the BLIP and BEiT-3 models demonstrate that these curation methods do indeed yield improved image captioning models, underscoring their efficacy." /><meta property="og:image" content="https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2023-09-01T00:00:00&#43;00:00"
+        content="2024-01-19T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-09-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-01-19T00:00:00&#43;00:00">
   
 
   
@@ -331,10 +331,10 @@
     "@type": "WebPage",
     "@id": "https://wenyanli.org/publication/sd-synth2023/"
   },
-  "headline": "Data Curation for Image Captioning with Text-to-Image Generative Models",
+  "headline": "The Role of Data Curation in Image Captioning",
   
-  "datePublished": "2023-09-01T00:00:00Z",
-  "dateModified": "2023-09-01T00:00:00Z",
+  "datePublished": "2024-01-19T00:00:00Z",
+  "dateModified": "2024-01-19T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -349,7 +349,7 @@
       "url": "https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Recent advances in image captioning are mainly driven by large-scale vision-language pretraining, relying heavily on computational resources and increasingly large multimodal datasets. Instead of scaling up pretraining data, we ask whether it is possible to improve performance by improving the quality of the samples in existing datasets. We pursue this question through two approaches to data curation: one that assumes that some examples should be avoided due to mismatches between the image and caption, and one that assumes that the mismatch can be addressed by replacing the image, for which we use the state-of-the-art Stable Diffusion model. These approaches are evaluated using the BLIP model on MS COCO and Flickr30K in both finetuning and few-shot learning settings. Our simple yet effective approaches consistently outperform baselines, indicating that better image captioning models can be trained by curating existing resources. Finally, we conduct a human study to understand the errors made by the Stable Diffusion model and highlight directions for future work in text-to-image generation."
+  "description": "Image captioning models are typically trained by treating all samples equally, neglecting to account for mismatched or otherwise difficult data points. In contrast, recent work has shown the effectiveness of training models by scheduling the data using curriculum learning strategies. This paper contributes to this direction by actively curating difficult samples in datasets *without* increasing the total number of samples. We explore the effect of using three data curation methods within the training process: complete removal of an sample, caption replacement, or image replacement via a text-to-image generation model. Experiments on the Flickr30K and COCO datasets with the BLIP and BEiT-3 models demonstrate that these curation methods do indeed yield improved image captioning models, underscoring their efficacy."
 }
 </script>
 
@@ -365,7 +365,7 @@
 
 
 
-  <title>Data Curation for Image Captioning with Text-to-Image Generative Models | Wenyan Li</title>
+  <title>The Role of Data Curation in Image Captioning | Wenyan Li</title>
 </head>
 
 
@@ -714,7 +714,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Data Curation for Image Captioning with Text-to-Image Generative Models</h1>
+  <h1>The Role of Data Curation in Image Captioning</h1>
 
   
 
@@ -746,7 +746,7 @@
     
       
     
-    September 2023
+    January 2024
   </span>
   
 
@@ -786,16 +786,11 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2305.03610.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/publication/sd-synth2023/wli_EACL_2024_preprint.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
-
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/sd-synth2023/cite.bib">
-  Cite
-</a>
 
 
 
@@ -823,7 +818,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Recent advances in image captioning are mainly driven by large-scale vision-language pretraining, relying heavily on computational resources and increasingly large multimodal datasets. Instead of scaling up pretraining data, we ask whether it is possible to improve performance by improving the quality of the samples in existing datasets. We pursue this question through two approaches to data curation: one that assumes that some examples should be avoided due to mismatches between the image and caption, and one that assumes that the mismatch can be addressed by replacing the image, for which we use the state-of-the-art Stable Diffusion model. These approaches are evaluated using the BLIP model on MS COCO and Flickr30K in both finetuning and few-shot learning settings. Our simple yet effective approaches consistently outperform baselines, indicating that better image captioning models can be trained by curating existing resources. Finally, we conduct a human study to understand the errors made by the Stable Diffusion model and highlight directions for future work in text-to-image generation.</p>
+    <p class="pub-abstract">Image captioning models are typically trained by treating all samples equally, neglecting to account for mismatched or otherwise difficult data points. In contrast, recent work has shown the effectiveness of training models by scheduling the data using curriculum learning strategies. This paper contributes to this direction by actively curating difficult samples in datasets <em>without</em> increasing the total number of samples. We explore the effect of using three data curation methods within the training process: complete removal of an sample, caption replacement, or image replacement via a text-to-image generation model. Experiments on the Flickr30K and COCO datasets with the BLIP and BEiT-3 models demonstrate that these curation methods do indeed yield improved image captioning models, underscoring their efficacy.</p>
     
 
     
@@ -851,7 +846,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">arXiv</div>
+          <div class="col-12 col-md-9"><em>EACL</em> 2024 (to appear)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -887,7 +882,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://wenyanli.org/publication/sd-synth2023/&amp;text=Data%20Curation%20for%20Image%20Captioning%20with%20Text-to-Image%20Generative%20Models" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://wenyanli.org/publication/sd-synth2023/&amp;text=The%20Role%20of%20Data%20Curation%20in%20Image%20Captioning" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -900,7 +895,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://wenyanli.org/publication/sd-synth2023/&amp;t=Data%20Curation%20for%20Image%20Captioning%20with%20Text-to-Image%20Generative%20Models" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://wenyanli.org/publication/sd-synth2023/&amp;t=The%20Role%20of%20Data%20Curation%20in%20Image%20Captioning" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -913,7 +908,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Data%20Curation%20for%20Image%20Captioning%20with%20Text-to-Image%20Generative%20Models&amp;body=https://wenyanli.org/publication/sd-synth2023/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=The%20Role%20of%20Data%20Curation%20in%20Image%20Captioning&amp;body=https://wenyanli.org/publication/sd-synth2023/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -926,7 +921,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://wenyanli.org/publication/sd-synth2023/&amp;title=Data%20Curation%20for%20Image%20Captioning%20with%20Text-to-Image%20Generative%20Models" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://wenyanli.org/publication/sd-synth2023/&amp;title=The%20Role%20of%20Data%20Curation%20in%20Image%20Captioning" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>

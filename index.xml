@@ -5,12 +5,20 @@
     <link>https://wenyanli.org/</link>
       <atom:link href="https://wenyanli.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenyan Li</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Wenyan Li</title>
       <link>https://wenyanli.org/</link>
     </image>
+    
+    <item>
+      <title>The Role of Data Curation in Image Captioning</title>
+      <link>https://wenyanli.org/publication/sd-synth2023/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/sd-synth2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BLIP models</title>
@@ -425,14 +433,6 @@
 &lt;li&gt;“unsatisfactory results due to various reasons including inaccurate knowledge from the LLM, activating the incorrect reasoning path, or not having up-to-date information about new image content”&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Data Curation for Image Captioning with Text-to-Image Generative Models</title>
-      <link>https://wenyanli.org/publication/sd-synth2023/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://wenyanli.org/publication/sd-synth2023/</guid>
-      <description></description>
     </item>
     
     <item>
