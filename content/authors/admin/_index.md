@@ -44,7 +44,7 @@ social:
   link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/Lyan22314913
+  link: https://twitter.com/Wenyan62
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=JvcZHCsAAAAJ&hl=en
@@ -63,7 +63,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "wenyan.li@hotmail.com"
+email: "wenyanl62@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

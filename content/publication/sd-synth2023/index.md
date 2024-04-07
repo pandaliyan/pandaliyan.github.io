@@ -51,11 +51,11 @@ math: true
 #   url: http://example.org
 
 url_pdf: /publication/sd-synth2023/wli_EACL_2024_preprint.pdf
-# url_code: ''
+url_code: 'https://github.com/lyan62/data-curation/'
+url_slides: 'https://drive.google.com/file/d/1yBO_tA_F5vBeVC3lETbcX7rN6nQIIC2M/view?usp=sharing'
 # url_dataset: ''
 # url_poster: ''
 # url_project: ''
-# url_slides: ''
 # url_source: ''
 # url_video: ''
 
