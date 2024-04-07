@@ -30,7 +30,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*EACL* 2024 (to appear)"
-publication_short: "*EACL 2024* (to appear)"
+publication_short: "*EACL 2024* (oral)"
 
 abstract: "Image captioning models are typically trained by treating all samples equally, neglecting to account for mismatched or otherwise difficult data points. In contrast, recent work has shown the effectiveness of training models by scheduling the data using curriculum learning strategies. This paper contributes to this direction by actively curating difficult samples in datasets *without* increasing the total number of samples. 
     We explore the effect of using three data curation methods within the training process: complete removal of an sample, caption replacement, or image replacement via a text-to-image generation model. Experiments on the Flickr30K and COCO datasets with the BLIP and BEiT-3 models demonstrate that these curation methods do indeed yield improved image captioning models, underscoring their efficacy."
