@@ -79,3 +79,7 @@ I completed my MS at [University of Maryland, College Park](https://www.umd.edu/
 where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg/) on Natural Language Processing.
 
 In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cooking, yoga, and table tennis :)
+
+<span style="color:yellow">**NEWS**</span>:  
+- 05/2024 -- One paper accepted to ACL 2024 main conference!
+- 03/2024 -- One paper accepted to EACL 2024 main conference!
