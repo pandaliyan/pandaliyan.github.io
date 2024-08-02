@@ -70,7 +70,7 @@ highlight_name: true
 ---
 
 Hi! I am Wenyan, a second-year PhD student at the [CoAStaL NLP Group](https://coastalcph.github.io/), University of Copenhagen. 
-I'm supervised by [Anders Søgaard](http://anderssoegaard.github.io/) and [Desmond Elliott](https://elliottd.github.io/).
+I'm supervised by [Anders Søgaard](http://anderssoegaard.github.io/).
 
 
 Before this, I worked as a Senior NLP Researcher at [Sensetime](https://sensetime.com/en) and [Comcast AI Research Lab](https://jobs.comcast.com/ml-ai-team-page) (mentored by [Ferhan Ture](http://ferhanture.com/index.htm)).
@@ -80,6 +80,7 @@ where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg
 
 In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cooking, yoga, and table tennis :)
 
-<span style="color:yellow">**NEWS**</span>:  
+<span style="color:yellow">**NEWS**</span>:
+- 08/2024 -- I will be presenting our [paper](https://arxiv.org/pdf/2406.02265) at ACL2024 (Aug 11-14), see you in Bangkok!
 - 05/2024 -- One paper accepted to ACL 2024 main conference!
 - 03/2024 -- One paper accepted to EACL 2024 main conference!
