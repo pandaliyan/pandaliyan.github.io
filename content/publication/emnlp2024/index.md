@@ -37,8 +37,8 @@ publishDate: "2024"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *arXiv* preprint"
-publication_short: "In *arXiv* preprint 2024"
+publication: "In *EMNLP 2024*"
+publication_short: "In *EMNLP 2024*"
 
 abstract: "Food is a rich and varied dimension of cultural heritage, crucial to both individuals and social groups. To bridge the gap in the literature on the often-overlooked regional diversity in this domain, we introduce FoodieQA, a manually curated, fine-grained image-text dataset capturing the intricate features of food cultures across various regions in China. We evaluate vision-language Models (VLMs) and large language models (LLMs) on newly collected, unseen food images and corresponding questions. FoodieQA comprises three multiple-choice question-answering tasks where models need to answer questions based on multiple images, a single image, and text-only descriptions, respectively."
 
