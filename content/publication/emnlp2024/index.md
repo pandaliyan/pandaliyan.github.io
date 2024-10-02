@@ -58,10 +58,9 @@ math: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2406.11030'
+url_code: 'https://github.com/lyan62/FoodieQA'
+url_dataset: 'https://huggingface.co/datasets/lyan62/FoodieQA'
 
-# url_code: 'https://github.com/lyan62/RobustCap'
-
-# url_dataset: ''
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
