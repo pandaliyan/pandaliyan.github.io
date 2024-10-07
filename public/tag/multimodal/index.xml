@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multimodal | Wenyan Li</title>
+    <link>https://wenyanli.org/tag/multimodal/</link>
+      <atom:link href="https://wenyanli.org/tag/multimodal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multimodal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Multimodal</title>
+      <link>https://wenyanli.org/tag/multimodal/</link>
+    </image>
+    
+    <item>
+      <title>FoodieQA: A Multimodal Dataset for Fine-Grained Understanding of Chinese Food Culture</title>
+      <link>https://wenyanli.org/publication/emnlp2024/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/emnlp2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding Retrieval Robustness for Retrieval-Augmented Image Captioning</title>
+      <link>https://wenyanli.org/publication/acl2024/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/acl2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Data Curation in Image Captioning</title>
+      <link>https://wenyanli.org/publication/sd-synth2023/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/sd-synth2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAP: Low-data Regime Multimodal Learning with Adapter-based Pre-training and Prompting</title>
+      <link>https://wenyanli.org/publication/lsd2023/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/lsd2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
