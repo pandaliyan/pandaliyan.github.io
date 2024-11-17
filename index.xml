@@ -5,12 +5,20 @@
     <link>https://wenyanli.org/</link>
       <atom:link href="https://wenyanli.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenyan Li</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wenyanli.org/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Wenyan Li</title>
       <link>https://wenyanli.org/</link>
     </image>
+    
+    <item>
+      <title>Words Worth a Thousand Pictures: Measuring and Understanding Perceptual Variability in Text-to-Image Generation</title>
+      <link>https://wenyanli.org/publication/wikp/</link>
+      <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://wenyanli.org/publication/wikp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FoodieQA: A Multimodal Dataset for Fine-Grained Understanding of Chinese Food Culture</title>
