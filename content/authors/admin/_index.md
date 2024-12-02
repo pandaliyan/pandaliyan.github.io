@@ -81,6 +81,7 @@ where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg
 In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cooking, yoga, and table tennis :)
 
 <span style="color:yellow">**NEWS**</span>:
+- 11/2024 -- Invited talk and shor visit at [MIT](https://www.media.mit.edu/groups/multisensory-intelligence/overview/)!
 - 11/2024 -- Our [W1KP](http://w1kp.com/) paper won the Outstanding Paper Award at EMNLP 2024!
 - 11/2024 -- I will present [FoodieQA](https://arxiv.org/abs/2406.11030) in EMNLP 2024, see you in Miami!
 - 09/2024 -- [FoodieQA](https://arxiv.org/abs/2406.11030) and [W1KP](http://w1kp.com/) are accepted to EMNLP 2024 main conference!
