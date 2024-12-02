@@ -1,0 +1,3 @@
+hugo mod clean
+hugo mod get -u ./...
+hugo mod tidy
