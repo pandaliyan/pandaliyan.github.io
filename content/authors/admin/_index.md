@@ -81,7 +81,7 @@ where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg
 In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cooking, yoga, and table tennis :)
 
 <span style="color:yellow">**NEWS**</span>:
-- 08/2025 -- Two papers are accepted to [EMNLP 2025](https://2025.emnlp.org/)! We will release **Information loss in VLMs** soon! Check out HANFU-Bench [here](https://arxiv.org/abs/2506.01565).
+- 08/2025 -- Two papers (one main and one findings) are accepted to [EMNLP 2025](https://2025.emnlp.org/)!
 - 07/2025 -- [CultureCLIP](https://arxiv.org/pdf/2507.06210) is accepted to [COLM 2025](https://colmweb.org/)!
 - I'm currently on my research visit at [RycoLab](https://rycolab.io/#about) in Zürich until end of June 2025.
 - 11/2024 -- Invited talk and short visit at [MIT](https://www.media.mit.edu/groups/multisensory-intelligence/overview/).
