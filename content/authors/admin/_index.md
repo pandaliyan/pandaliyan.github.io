@@ -18,8 +18,8 @@ bio: My research interests include NLP, machine learning and speech recognition.
 
 # Interests to show in About widget
 interests:
-- Natural Language Processing
 - Multimodal Learning
+- Natural Language Processing
 - Information Retrieval
 - Speech Technology
 
@@ -27,12 +27,15 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: Ph.D. in Computer Science
+    institution: University of Copenhagen, Denmark
+    year: 2022-2025
   - course: M.S. in EECS (Thesis Track)
     institution: University of Maryland, College Park
     year: 2016-2018
-  - course: B.E. in Electrical Engineering
-    institution: Northwestern Polytechnical University
-    year: 2012-2016
+#  - course: B.E. in Electrical Engineering
+#    institution: Northwestern Polytechnical University
+#    year: 2012-2016
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -69,14 +72,20 @@ email: "wenyanl62@gmail.com"
 highlight_name: true
 ---
 
-Hi! I am Wenyan, a PhD student at the [CoAStaL NLP Group](https://coastalcph.github.io/), University of Copenhagen. 
-I'm supervised by [Anders Søgaard](http://anderssoegaard.github.io/).
+Hi! I am Wenyan. My research focuses on building and interpreting multimodal and NLP models. 
+I am currently a senior Researcher at [Alipes Capital](https://www.alipes.dk/), 
+where I develop automated pipelines for financial document understanding that facilitates trading decisions.
+
+I completed my PhD with a focus on multimodal learning at the [CoAStaL NLP Group](https://coastalcph.github.io/), University of Copenhagen, 
+where I was supervised by [Anders Søgaard](http://anderssoegaard.github.io/).
 
 
-Before this, I worked as a Senior NLP Researcher at [Sensetime](https://sensetime.com/en) and [Comcast AI Research Lab](https://jobs.comcast.com/ml-ai-team-page) (mentored by [Ferhan Ture](http://ferhanture.com/index.htm)).
-
-I completed my MS at [University of Maryland, College Park](https://www.umd.edu/), 
+I was also a senior NLP Researcher at [Sensetime](https://sensetime.com/en) and [Comcast AI Research Lab](https://jobs.comcast.com/ml-ai-team-page).
+Before that, I spent a wonderful time at [University of Maryland, College Park](https://www.umd.edu/) for my MS, 
 where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg/) on Natural Language Processing.
+
+
+<span style="color:orange">Feel free to reach out for collaboration on related projects. MSc or PhD thesis supervision is also possible (for fintech topics, check our [company collaboration roles](https://careers.alipes.dk/jobs/5288097-msc-and-phd-thesis-collaborations)).</span>
 
 In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cooking, yoga, and table tennis :)
 
