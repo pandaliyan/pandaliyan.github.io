@@ -73,9 +73,6 @@ highlight_name: true
 ---
 
 Hi! I am Wenyan. My research focuses on building and interpreting multimodal and NLP models. 
-I am currently a senior Researcher at [Alipes Capital](https://www.alipes.dk/), 
-where I develop automated pipelines for financial document understanding that facilitates trading decisions.
-
 I completed my PhD with a focus on multimodal learning at the [CoAStaL NLP Group](https://coastalcph.github.io/), University of Copenhagen, 
 where I was supervised by [Anders Søgaard](http://anderssoegaard.github.io/).
 
@@ -85,7 +82,8 @@ Before that, I spent a wonderful time at [University of Maryland, College Park](
 where I worked with [Prof. Jordan Boyd-Graber](https://home.cs.colorado.edu/~jbg/) on Natural Language Processing.
 
 
-<span style="color:orange">Feel free to reach out for collaboration on related projects. MSc or PhD thesis supervision is also possible (for fintech topics, check our [company collaboration roles](https://careers.alipes.dk/jobs/5288097-msc-and-phd-thesis-collaborations)).</span>
+Feel free to reach out for collaboration on related projects.
+
 
 In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cooking, yoga, and table tennis :)
 
