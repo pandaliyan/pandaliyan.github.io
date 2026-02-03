@@ -23,11 +23,11 @@ author_notes:
 - "equal contribution"
 - "equal contribution"
 
-date: "2025-05-20T00:00:00Z"
+date: "2026-01-20T00:00:00Z"
 # doi: "10.18653/v1/2020.findings-emnlp.12"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025"
+publishDate: "2026"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -36,8 +36,8 @@ publishDate: "2025"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Arxiv 2025*"
-publication_short: "In *Arxiv 2025*"
+publication: "To appear in *ICLR 2026*"
+publication_short: "To appear in *ICLR 2026*"
 
 abstract: "As vision-language models (VLMs) become increasingly integrated into daily life, the need for accurate visual culture understanding is becoming critical. Yet, these models frequently fall short in interpreting cultural nuances effectively. Prior work has demonstrated the effectiveness of retrieval-augmented generation (RAG) in enhancing cultural understanding in text-only settings, while its application in multimodal scenarios remains underexplored. To bridge this gap, we introduce RAVENEA (Retrieval-Augmented Visual culturE uNdErstAnding), a new benchmark designed to advance visual culture understanding through retrieval, focusing on two tasks: culture-focused visual question answering (cVQA) and culture-informed image captioning (cIC). RAVENEA extends existing datasets by integrating over 10,000 Wikipedia documents curated and ranked by human annotators. With RAVENEA, we train and evaluate seven multimodal retrievers for each image query, and measure the downstream impact of retrieval-augmented inputs across fourteen state-of-the-art VLMs. Our results show that lightweight VLMs, when augmented with culture-aware retrieval, outperform their non-augmented counterparts (by at least 3.2% absolute on cVQA and 6.2% absolute on cIC). This highlights the value of retrieval-augmented methods and culturally inclusive benchmarks for multimodal understanding."
 

@@ -1,0 +1,85 @@
+/* 强制全局背景和文字颜色 */
+:root, body, html {
+  background-color: #ffffff !important;
+  color: #151515 !important; /* 深灰色文字，比纯黑更护眼 */
+}
+
+/* 覆盖 Academic 模板的特定变量 */
+:root {
+  --hb-background: #ffffff !important;
+  --hb-text-color: #1b1b1b !important;
+  --hb-primary: #007bff !important; /* 链接颜色，如果看不清可以改这个 */
+}
+
+/* 确保所有 section 和卡片背景也是白色 */
+section, .home-section, .card {
+  background-color: #ffffff !important;
+  color: #1b1b1b !important;
+}
+
+/* 修复标题颜色（针对 h1, h2, h3 等） */
+h1, h2, h3, h4, h5, h6 {
+  color: #000000 !important;
+}
+
+/* 修复列表和段落文字 */
+p, li, span {
+  color: #1b1b1b !important;
+}
+
+/* 强制全局链接颜色 */
+a {
+  color: #0056b3 !important; /* 深蓝色，适合白色背景 */
+  text-decoration: none;      /* 默认去掉下划线，保持简洁 */
+  transition: color 0.2s ease-in-out;
+}
+
+/* 鼠标悬停时的颜色 */
+a:hover {
+  color: #003d80 !important; /* 悬停时颜色更深 */
+  text-decoration: underline; /* 悬停时显示下划线 */
+}
+
+/* 针对 Academic 模板可能使用的特殊变量 */
+:root {
+  --hb-primary: #0056b3 !important;
+  --hb-link-color: #0056b3 !important;
+  --hb-link-hover-color: #003d80 !important;
+}
+
+/* 确保导航栏链接也是深色 */
+.navbar-brand, .nav-link {
+  color: #151515 !important;
+}
+
+/* 强制导航栏背景为白色 */
+.navbar {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important; /* 添加一点微弱的阴影，让白色导航栏与白色背景有区分 */
+}
+
+/* 修改导航栏上的品牌名称/Logo 颜色 */
+.navbar-brand {
+  color: #000000 !important;
+}
+
+/* 修改导航菜单链接颜色 */
+.nav-item .nav-link {
+  color: #151515 !important;
+}
+
+/* 鼠标悬停在菜单上的颜色 */
+.nav-item .nav-link:hover {
+  color: #0056b3 !important; /* 使用我们之前设定的深蓝色 */
+}
+
+/* 修复移动端折叠按钮（三根杠）的颜色 */
+.navbar-toggler {
+  color: #000000 !important;
+  border-color: #dddddd !important;
+}
+
+/* 修复搜索图标等按钮 */
+.nav-main .search-icon {
+  color: #151515 !important;
+}

@@ -87,13 +87,20 @@ Feel free to reach out for collaboration on related projects.
 
 In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cooking, yoga, and table tennis :)
 
-<span style="color:yellow">**NEWS**</span>:
-- 10/2025 -- I have successfully defended my PhD!
-- 08/2025 -- Two papers (one main and one findings) are accepted to [EMNLP 2025](https://2025.emnlp.org/)!
-- 07/2025 -- [CultureCLIP](https://arxiv.org/pdf/2507.06210) is accepted to [COLM 2025](https://colmweb.org/)!
+<span style="color: yellow !important; font-weight: bold; background-color: #333 !important; padding: 2px 6px; border-radius: 3px;">NEWS</span>
+
+<div style="height: 300px; overflow-y: scroll; border: 1px solid #e5e5e5; padding: 15px; margin-top: 10px; background-color: rgba(255,255,255,0.05); border-radius: 8px;">
+
+- **02/2026** -- We've released [ExpAlign](https://arxiv.org/html/2601.22666v1)!
+- **01/2026** -- [RAVENEA](https://arxiv.org/abs/2505.14462) is accepted to ICLR!
+- **10/2025** -- I have successfully defended my PhD! 🎓
+- **08/2025** -- Two papers (one main and one findings) are accepted to [EMNLP 2025](https://2025.emnlp.org/)!
+- **07/2025** -- [CultureCLIP](https://arxiv.org/pdf/2507.06210) is accepted to [COLM 2025](https://colmweb.org/)!
 - I'm currently on my research visit at [RycoLab](https://rycolab.io/#about) in Zürich until end of June 2025.
-- 11/2024 -- Invited talk and short visit at [MIT](https://www.media.mit.edu/groups/multisensory-intelligence/overview/).
-- 11/2024 -- Our [W1KP](http://w1kp.com/) paper won the Outstanding Paper Award at EMNLP 2024!
-- 11/2024 -- I will present [FoodieQA](https://arxiv.org/abs/2406.11030) in EMNLP 2024, see you in Miami!
-- 09/2024 -- [FoodieQA](https://arxiv.org/abs/2406.11030) and [W1KP](http://w1kp.com/) are accepted to EMNLP 2024 main conference!
-- 05/2024 -- One paper accepted to ACL 2024 main conference!
+- **11/2024** -- Invited talk and short visit at [MIT](https://www.media.mit.edu/groups/multisensory-intelligence/overview/).
+- **11/2024** -- Our [W1KP](http://w1kp.com/) paper won the Outstanding Paper Award at EMNLP 2024! 🏆
+- **11/2024** -- I will present [FoodieQA](https://arxiv.org/abs/2406.11030) in EMNLP 2024, see you in Miami!
+- **09/2024** -- [FoodieQA](https://arxiv.org/abs/2406.11030) and [W1KP](http://w1kp.com/) are accepted to EMNLP 2024 main conference!
+- **05/2024** -- One paper accepted to ACL 2024 main conference!
+
+</div>
