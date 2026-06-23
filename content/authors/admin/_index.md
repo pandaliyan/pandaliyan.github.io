@@ -92,7 +92,6 @@ In my free time, I enjoy [painting](https://www.instagram.com/pandaliyan/), cook
 <div style="height: 300px; overflow-y: scroll; border: 1px solid #e5e5e5; padding: 15px; margin-top: 10px; background-color: rgba(255,255,255,0.05); border-radius: 8px;">
 
 - **05/2026** -- [ExpAlign](https://arxiv.org/html/2601.22666v1) is accepted to [ICML 2026](https://icml.cc/)!
-- **02/2026** -- We've released [ExpAlign](https://arxiv.org/html/2601.22666v1)!
 - **01/2026** -- [RAVENEA](https://arxiv.org/abs/2505.14462) is accepted to ICLR!
 - **10/2025** -- I have successfully defended my PhD! 🎓
 - **08/2025** -- Two papers (one main and one findings) are accepted to [EMNLP 2025](https://2025.emnlp.org/)!
